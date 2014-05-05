@@ -188,15 +188,16 @@
 			
 			.image.avatar48
 			{
-				width: 48px;
-				height: 48px;
+				width: 100px;
+/*				height: 48px;*/
 				background: #f00;
 			}
 			
 				.image.avatar48 img
 				{
-					width: 48px;
-					height: 48px;
+					width: 100px;
+/*					height: 48px;*/
+					border: 3px solid #aba;
 				}
 
 			.image.full
