@@ -1,0 +1,58 @@
+html, body, ul, li, p {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style-type: none;
+	font: inherit;
+}
+
+body {
+	padding: 50px;
+	font-family: sans-serif;
+}
+
+.tower1,
+.tower2,
+.tower3 {
+  height: 110px;
+  width: 120px;
+  float: left;
+  border-bottom: 10px solid black;
+  margin: 0 20px 0 0;
+	border-radius: 10px;
+}
+
+.tower1:hover,
+.tower2:hover,
+.tower3:hover {
+	background: #eee;
+}
+
+.clicked {
+	background: #aaa;
+}
+
+
+.disc {
+  background: transparent;
+  margin: 0 auto;
+  height: 30px;
+	margin: 5px auto;
+	border-radius: 10px;
+}
+
+#disc1 {
+  width: 50px;
+  background: blue;
+	display: block;
+}
+
+#disc2 {
+  width: 75px;
+  background: purple;
+}
+
+#disc3 {
+  width: 100px;
+  background: red;
+}
