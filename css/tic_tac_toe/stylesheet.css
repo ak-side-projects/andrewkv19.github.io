@@ -1,0 +1,85 @@
+html, body, ul, li {
+  margin: 0;
+  padding: 0;
+  border: 0;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body {
+	padding: 50px 0;
+	font-family: sans-serif;
+	color: black;
+}
+
+h1 {
+	text-align: center;
+}
+
+ul {
+  margin: 30px auto;
+  list-style: none;
+  width: 300px;
+  border: 5px solid black;
+  background-size: cover;
+}
+
+li {
+  height: 90px;
+  width: 90px;
+  background: white;
+  border: 5px solid black;
+  float: left;
+	vertical-align: middle;
+}
+
+li:hover {
+	background: #ccc;
+}
+
+.x{
+  background: #516EFF;
+}
+
+.o {
+  background: #FF4A4E;
+}
+
+.x:after,
+.o:after {
+  display: block;
+  width: 100%;
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 90px;
+}
+
+.x:after {
+  content: "X";
+}
+
+.o:after {
+  content: "O";
+}
+
+.group:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.winner-x > .x,
+.winner-o > .o {
+  background: green;
+  color: white;
+}
+
+.over {
+  color: red;
+}
+
+.over > li {
+  cursor: default;
+  background: white;
+}
