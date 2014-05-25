@@ -20,12 +20,10 @@
 		font-weight: 300;
 	}
 	
-	p
-	{
-		width: auto;
-		margin: auto;
+	p {
+			width: 100%;
 	}
-
+	
 	.container
 	{
 		padding: 0 15px 0 15px;

@@ -12,16 +12,20 @@
 	{
 		font-size: 16pt;
 	}
-
+	
 	h2
 	{
 	}
-
+	
 		h2 br
 		{
 			display: none;
 		}
-
+	
+		p {
+			width: 100%;
+		}
+	
 	.container
 	{
 		padding: 0 2em 0 2em;
