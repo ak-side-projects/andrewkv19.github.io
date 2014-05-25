@@ -19,6 +19,11 @@
 		letter-spacing: 0;
 		font-weight: 300;
 	}
+	
+	p
+	{
+		width: auto;
+	}
 
 	.container
 	{
