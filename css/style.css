@@ -1207,7 +1207,7 @@
 			
 			section.one p {
 				text-align: left;
-				width: 700px;
+				width: 100%;
 				margin: 0 auto;
 				padding: 10px 0;
 				font-size: 18px;
